@@ -450,8 +450,8 @@ your `fetch()`.
 In `submitData`, write a valid POST request to `http://localhost:3000/users`
 using `fetch()`. This request should include:
 
-- The destination URL
-- Headers for 'Content-Type' and 'Accept', both set to 'application/json'
+- The destination URL (ok)
+- Headers for 'Content-Type' and 'Accept', both set to 'application/json'(ok)
 - A body with the name and email passed in as arguments to `submitData`. These
   should be assigned to `name` and `email` keys within an object. This object
   should then be stringified.
